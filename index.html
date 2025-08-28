@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Opportunities</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Volunteer Opportunities</h1>
+    </header>
+
+    <main>
+        <section id="ngo-section">
+            <h2>For NGOs</h2>
+            <form id="add-opportunity-form">
+                <label for="opportunity-title">Title:</label>
+                <input type="text" id="opportunity-title" required>
+                <label for="opportunity-description">Description:</label>
+                <textarea id="opportunity-description" required></textarea>
+                <button type="submit">Add Opportunity</button>
+            </form>
+        </section>
+
+        <section id="student-section">
+            <h2>For Students</h2>
+            <div id="opportunities-list">
+                <!-- Volunteer opportunities will be listed here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
